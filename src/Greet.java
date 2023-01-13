@@ -2,7 +2,7 @@ import java.util.*;
 public class Greet {
 	String name;
 
-	public void FirstGreet(){
+	public void firstGreet(){
 		System.out.println("ゲームを開始します");
 		System.out.print("あなたの名前を入力してください) ?>>");
 		this.name = new Scanner(System.in).next();
@@ -17,15 +17,8 @@ public class Greet {
 		System.out.println("コンピューターの値が" + this.name + "さんより大きいか否かを当てるゲームです。");
 	}
 
-	public void FirstGreet_1(){
-		Greet g = new Greet();
-		User u = new User();
-		System.out.println(this.name + "さんの値は" + u.num1 + "です。");
-		System.out.print(g.name + "さんの値は、コンピューターの値より大きいでしょうか(High or Low) ?>>");
-		String ans = new Scanner(System.in).next();
-	}
 
-	public void SecondGreet(){
+	public void secondGreet(){
 		System.out.println("2つ目に移ります");
 		System.out.println("2つ目は");
 		System.out.println("---------------");

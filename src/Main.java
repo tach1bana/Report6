@@ -4,7 +4,7 @@ public class Main{
 	public static void main(String[] args){
 		//一つ目のゲーム
 		Greet g = new Greet();
-		g.FirstGreet();
+		g.firstGreet();
 		User u = new User();
 		u.userNumber();
 		System.out.println(g.name + "さんの値は" + u.num1 + "です。");
@@ -14,7 +14,7 @@ public class Main{
 		FirstJudge();
 
 		//二つ目のゲーム
-		g.SecondGreet();
+		g.secondGreet();
 		Computer c1 = new Computer();
 		Computer c2 = new Computer();
 		Computer c3 = new Computer();
@@ -50,6 +50,7 @@ public class Main{
 		System.out.println("ゲーム終了です。");
 		System.out.println(g.name + "さんのまたのお越しをお待ちしてます！");
 	}
+
 
 
 	//一つ目のゲームの判定
