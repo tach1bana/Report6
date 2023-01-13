@@ -2,7 +2,16 @@ import java.util.*;
 public class Greet {
 	String name;
 
+	/**
+　　　　　　　　　　* @author 205731A
+     * @version 1.0
+　　　　　　　　　　*/
+
+    //一つ目のゲームの挨拶用
 	public void firstGreet(){
+		/**
+　　　　　　　　　　    *一つ目のゲーム開始時の挨拶
+　　　　　　　　　    　*/
 		System.out.println("ゲームを開始します");
 		System.out.print("あなたの名前を入力してください) ?>>");
 		this.name = new Scanner(System.in).next();
@@ -18,7 +27,11 @@ public class Greet {
 	}
 
 
+	//二つ目のゲーム用の挨拶
 	public void secondGreet(){
+		/**
+　　　　　　　　　　    *二つ目のゲーム開始時の挨拶
+　　　　　　　　　    　*/
 		System.out.println("2つ目に移ります");
 		System.out.println("2つ目は");
 		System.out.println("---------------");
