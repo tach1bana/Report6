@@ -6,7 +6,6 @@ public class User{
     public void userNumber(){ 
         this.num1 = new Random().nextInt(13)+1;
         
-       
 }
 }
 
